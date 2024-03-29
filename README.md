@@ -58,14 +58,14 @@ https://jsonplaceholder.typicode.com/users
 - Profile Page
 
 ## Screenshots
-![Screenshot_29-3-2024_223455_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/81aa92d6-d91f-48ee-b9aa-e5b36477dce8)
-![Screenshot_29-3-2024_223412_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/e0859c55-09d6-44ad-aa06-4d347aec1985)
-![Screenshot_29-3-2024_223325_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/b66e15d3-78bb-4b1c-bacf-9fe13d84c4b1)
-![Screenshot_29-3-2024_223313_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/39a35966-4a54-42e4-aa80-a78381bf9488)
-![Screenshot_29-3-2024_223256_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/f4ef08f7-4dae-4672-bd7b-6aa7a99419d3)
-![Screenshot_29-3-2024_223235_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/542728b0-19bf-4a6b-8c4d-5a96ec09e12a)
-![Screenshot_29-3-2024_22325_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/5adfc5f6-dbff-4fff-9211-6b305341dec7)
+
 ![Screenshot_29-3-2024_223152_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/51dbdc3c-4b55-4f1d-90f9-f7d10a05b704)
+![Screenshot_29-3-2024_22325_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/5adfc5f6-dbff-4fff-9211-6b305341dec7)
+![Screenshot_29-3-2024_223235_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/542728b0-19bf-4a6b-8c4d-5a96ec09e12a)
+![Screenshot_29-3-2024_223313_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/39a35966-4a54-42e4-aa80-a78381bf9488)
+![Screenshot_29-3-2024_223325_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/b66e15d3-78bb-4b1c-bacf-9fe13d84c4b1)
+![Screenshot_29-3-2024_223412_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/e0859c55-09d6-44ad-aa06-4d347aec1985)
+![Screenshot_29-3-2024_223455_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/81aa92d6-d91f-48ee-b9aa-e5b36477dce8)
 
 
 ## Acknowledgements
