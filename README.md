@@ -8,7 +8,7 @@ This is a blog post site totally built on react and node. This has a user friend
 
 ## Authors
 
-- [@phuyalbish](https://www.github.com/phuyalbish)
+[@phuyalbish](https://www.github.com/phuyalbish)
 
 
 
@@ -36,8 +36,8 @@ For Posts Data:
 ```
 For Writers Data:
 ```http
-  https://jsonplaceholder.typicode.com/users
-
+https://jsonplaceholder.typicode.com/users
+```
 
 
 
