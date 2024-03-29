@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.input {
+  width: 100%;
+  padding: 1rem 1rem;
+  margin:1rem;
+  border-radius: var(--radius-3);
+  resize: none;
+  background: var(--color-white);
+  color: var(--colorgray-9);
+  border: 1px solid var(--colorgray-9);
+}
+
+.contact{
+width: var(--form-width);
+  margin-inline: auto;
+  height: calc(100vh - 12rem);
+  display: grid;
+  place-items: center;
+  margin-bottom: 8rem;
+}
+
+/* .logn h2,{
+  margin-bottom: 2rem;
+}
+
+.login small{
+  display: block;
+  margin-top: 1.5rem;
+}
+
+
+.login small a {
+  color: var(--colorgray-7);
+} */
+
+.primary {
+  background: var(--colorprimary) !important;
+  color: var(--colorwhite);
+  border: none !important;
+  padding:1rem;
+  border-radius: 2rem;
+}

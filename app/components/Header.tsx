@@ -33,13 +33,13 @@ const Header = () => {
           <Link href="/" className="nav_logo" onClick={closeNavHandler}>
             <Image 
               src={Logo}
-              width={80}
-              height={80}
+              width={50}
+              height={50}
               alt="Picture of the author"/>
             
           </Link>
 
-          <h3>Webodle Blog</h3>
+          <h3>   Webodle Blog</h3>
         </div>
         {isNavShowing && (
           <div className={styles.navbarMenu}>
@@ -57,7 +57,15 @@ const Header = () => {
             >
              Posts
             </Link>
-            {/* <DarkMode/> */}
+            
+            <Link
+              href="/contactus"
+              className={styles.navbarMenuInner}
+              onClick={closeNavHandler}
+            >
+              Contact
+            </Link>
+            <DarkMode/>
             
           </div>
         )}

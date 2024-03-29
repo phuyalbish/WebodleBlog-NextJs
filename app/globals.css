@@ -25,7 +25,7 @@
   --color-boxshadow: rgba(0, 0, 0, 0.2);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
   --colorgray-7: #fff;
   --colorgray-9: #fff;
@@ -33,7 +33,7 @@
   --color-boxshadow: rgba(255, 255, 255, 0.089);
   --postcolorwhite: #0c0c22;
   }
-}
+} */
 [data-theme="dark"] {
   --colorgray-7: #fff;
   --colorgray-9: #fff;
@@ -41,8 +41,6 @@
   --color-boxshadow: rgba(255, 255, 255, 0.089);
   --postcolorwhite: #0c0c22;
 }
-
-
 
 
 * {

@@ -4,13 +4,12 @@ import React, { useState, useEffect } from "react";
 import PostWriter from "../../components/PostWriter";
 import DetailPost from "../../components/DetailPost";
 import { IoMdArrowRoundBack } from "react-icons/io";
+import { useRouter } from "next/router";
 import Link from "next/link";
-// import { useRouter } from 'next/router';
 import styles from './PostDetails.module.css'
+import Router from 'next/router'
 
-
-function PostDetails( {params}: {params:{ id:string}}) {
-
+const  PostDetails = ( {params}: {params:{ id:string}}) => {
 
 
 const id = parseInt(params.id);
@@ -20,7 +19,7 @@ const id = parseInt(params.id);
     <section className={styles.postDetail}>
       <div className={styles.postDetailContainer}>
         <div className={styles.titleWithBack}>
-            <IoMdArrowRoundBack className="linktoback" onClick={() => {}} />
+            {/* <IoMdArrowRoundBack className="linktoback" onClick={() => Router.back()} /> */}
             
           <div className="title">
             <PostWriter userId={3} />
