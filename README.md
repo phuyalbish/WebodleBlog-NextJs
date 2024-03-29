@@ -1,10 +1,6 @@
 
 # React-BlogWebsite Webodle
-This is a blog post site totally built on react and node. This has a user friendly and decent looking UI.  I have also implemented Dark/Light mode in this site.  This site can create posts, filter blogs with writers and categories.
-
-
-# Hi, I'm Bishal Phuyal 👋
-
+This is a blog post site totally built on nextjs and node. This has a user friendly and decent looking UI.  I have also implemented Dark/Light mode in this site.  
 
 ## Authors
 
