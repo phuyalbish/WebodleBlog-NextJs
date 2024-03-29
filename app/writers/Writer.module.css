@@ -1,0 +1,22 @@
+.writers_container {
+  width: var(--container-width-large);
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.author {
+  background: var(--postcolorwhite);
+  padding: 1rem;
+  width: 320px;
+  border: 1px solid var(--colorborder);
+  border-radius: var(--radius-3);
+  display: flex;
+  gap: 1rem;
+  transition: var(--transition);
+}
+
+.author:hover {
+  box-shadow: 0 1rem 1.5rem var(--color-boxshadow);
+}

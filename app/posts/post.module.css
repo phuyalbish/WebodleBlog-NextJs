@@ -1,0 +1,9 @@
+.posts_container{
+  width: var(--container-width-large);
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

@@ -1,0 +1,27 @@
+.postDetail {
+  width: 80%;
+  background: transparent;
+  margin-inline: auto;
+  padding: 2rem 0;
+}
+.postDetailHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+
+.postDetail p {
+  margin-bottom: 0.7rem;
+}
+
+.titleWithBack {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 20px;
+}
+.titleWithBack a,
+.imgandinfo a {
+  font-size: 2rem;
+  padding-top: 10px;
+}

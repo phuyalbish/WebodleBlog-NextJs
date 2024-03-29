@@ -1,0 +1,48 @@
+.navbar {
+  width: 100vw;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  background: var(255, 255, 255, 8.5);
+  backdrop-filter: blur(20px);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  border-bottom: 4px solid var(--colorbackground);
+}
+
+.navbarContainer {
+    width: var(--container-width-large);
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbarMenu {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+
+.navbarToggleBtn {
+  display: none;
+}
+
+.nav_logo {
+  width: 80px;
+
+  padding: 10px;
+  display: block;
+}
+
+.navbarLogoAndHeader {
+  display: flex;
+}
+.navbarLogoAndHeader h3 {
+  align-self: center;
+  color: var(--colorgray-9);
+}
