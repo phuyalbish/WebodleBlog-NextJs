@@ -50,16 +50,12 @@ For Writers Data:
 |color-boxshadow|rgba(255, 255, 255, 0.089)|
 |postcolorwhite| #0c0c22|
 
-
-
 ## Features
-
 - Light/dark mode toggle
 - Category Page
 - Writer Page
 - Create Blog Post
 - Profile Page
-
 
 ## Screenshots
 ![Screenshot_29-3-2024_223455_localhost](https://github.com/phuyalbish/WebodleBlog-NextJs/assets/104910055/81aa92d6-d91f-48ee-b9aa-e5b36477dce8)
