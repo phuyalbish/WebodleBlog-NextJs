@@ -25,3 +25,13 @@
   font-size: 2rem;
   padding-top: 10px;
 }
+
+
+@media screen and (max-width:800px) {
+  
+  .postDetail {
+    width: 100%;
+    padding-inline: 20px;
+    background: var(--color-white);
+  }
+}

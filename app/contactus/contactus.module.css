@@ -23,19 +23,6 @@ width: var(--form-width);
   margin-bottom: 8rem;
 }
 
-/* .logn h2,{
-  margin-bottom: 2rem;
-}
-
-.login small{
-  display: block;
-  margin-top: 1.5rem;
-}
-
-
-.login small a {
-  color: var(--colorgray-7);
-} */
 
 .primary {
   background: var(--colorprimary) !important;
@@ -43,4 +30,10 @@ width: var(--form-width);
   border: none !important;
   padding:1rem;
   border-radius: 2rem;
+}
+@media screen and (max-width: 800px) {
+.contact{
+
+  width:80%;
+}
 }

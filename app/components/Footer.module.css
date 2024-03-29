@@ -80,3 +80,25 @@
 .about_footer p {
   text-align: end;
 }
+
+
+@media screen and (max-width: 800px) {
+  .footer{
+    padding-inline: 20px;
+  }
+  .mainFooterInfo {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footer_outer {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .categoriesOfWriter {
+    gap: 5px;
+  }
+
+}
