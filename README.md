@@ -44,18 +44,17 @@ https://jsonplaceholder.typicode.com/users
 ## Color Reference
 
 
-| --colorgray-7|#fff|
-|--colorgray-9|#fff|
-|colorwhite|#252542|
-|color-boxshadow|rgba(255, 255, 255, 0.089)|
-|postcolorwhite| #0c0c22|
+-| --colorgray-7:#fff|
+-|--colorgray-9:#fff|
+-|colorwhite:#252542|
+-|color-boxshadow:rgba(255, 255, 255, 0.089)|
+-|postcolorwhite: #0c0c22|
 
 ## Features
 - Light/dark mode toggle
-- Category Page
+- PostList Page
 - Writer Page
-- Create Blog Post
-- Profile Page
+- Contact Page
 
 ## Screenshots
 
