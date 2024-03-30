@@ -30,6 +30,12 @@ const Header = () => {
           <h3>   Webodle Blog</h3>
         </div>
           <div className={styles.navbarMenu}>
+             <Link
+              href="/posts"
+              className={styles.navbarMenuInner}
+            >
+             <p>Posts</p>
+            </Link>
             <Link
               href="/writers"
               className={styles.navbarMenuInner}
@@ -37,12 +43,7 @@ const Header = () => {
             >
               <p>Writers</p>
             </Link>
-            <Link
-              href="/posts"
-              className={styles.navbarMenuInner}
-            >
-             <p>Posts</p>
-            </Link>
+           
             
             <Link
               href="/contactus"

@@ -1,34 +1,49 @@
 
-'use client'
-import React, { useState, useEffect } from "react";
+import React from "react";
 import PostWriter from "../../components/PostWriter";
-import DetailPost from "../../components/DetailPost";
-import { IoMdArrowRoundBack } from "react-icons/io";
-import { useRouter } from "next/router";
 import Link from "next/link";
 import styles from './PostDetails.module.css'
-import Router from 'next/router'
+import useRouter from 'next/navigation'
+import GoBack from "@/app/components/GoBack";
 
-const  PostDetails = ( {params}: {params:{ id:string}}) => {
+interface Post {
+  userId:number;
+  id: number;
+  title:string;
+  body:string;
+
+}
+const  PostDetails = async ( {params}: {params:{ id:string}}) => {
 
 
 const id = parseInt(params.id);
+
+
+  const response = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
+  const post: Post= await response.json();
+
+  let capitalizedTitle = post?.title;
+  let capitalizedBody = post?.body;
+  capitalizedTitle = post?.title && post?.title.charAt(0).toUpperCase() + post?.title.slice(1);
+  capitalizedBody =  post?.body && post?.body.charAt(0).toUpperCase() + post?.body.slice(1);
+
 
   return (
     
     <section className={styles.postDetail}>
       <div className={styles.postDetailContainer}>
         <div className={styles.titleWithBack}>
-            {/* <IoMdArrowRoundBack className="linktoback" onClick={() => Router.back()} /> */}
-            
+            <GoBack/>
           <div className="title">
-            <PostWriter userId={3} />
+            <PostWriter userId={post.userId} />
           </div>
         </div>
 
         <div className={styles.postDetailHeader}>
-          
-            <DetailPost id={id} />
+        <div className="post_writer_details">
+              <h2>{capitalizedTitle}</h2>
+              <small>{capitalizedBody}</small>
+         </div>
         </div>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
