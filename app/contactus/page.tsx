@@ -14,7 +14,7 @@ const ContactUs: React.FC = () => {
     email: "",
     message: "",
   });
-
+  const [isFormSubmitted, setIsFomrSubmitted] = useState<boolean>(false);
   const changeInputHandler = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -25,17 +25,17 @@ const ContactUs: React.FC = () => {
     }));
   };
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleOnSubmit = (e: FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
     console.log("Form submitted with data:", contactData);
+    setIsFomrSubmitted(true);
   };
 
   return (
     <section className={styles.contact}>
       <div className={styles.container}>
         <h2>Contact Us</h2>
-        <form onSubmit={handleSubmit} className={styles.contact_form}>
+        <form onSubmit={handleOnSubmit} className={styles.contact_form}>
           <input
             type="text"
             name="name"
@@ -67,6 +67,14 @@ const ContactUs: React.FC = () => {
             Send Message
           </button>
         </form>
+
+        {isFormSubmitted ? (
+          <p className={styles.confirmationMessage}>
+            Message Sent successfully!
+          </p>
+        ) : (
+          <p></p>
+        )}
       </div>
     </section>
   );
