@@ -56,7 +56,7 @@ function Footer() {
         </div>
 
         <div className={styles.footer_outer}>
-          <h2>About Us;</h2>
+          <h2>About Us:</h2>
           <p>
             Webodle Inc. is the common place for reading and posting interesting
             blogs. Join webodle family to showcase your talent.
