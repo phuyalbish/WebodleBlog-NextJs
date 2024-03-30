@@ -1,16 +1,17 @@
-
-'use client'
-import React from 'react'
-import {useRouter} from 'next/navigation'
+"use client";
+import React from "react";
+import { useRouter } from "next/navigation";
 import { IoMdArrowRoundBack } from "react-icons/io";
-import styles from './Goback.module.css'
+import styles from "./assets/css/Goback.module.css";
 
 function GoBack() {
-    const Router = useRouter()
+  const Router = useRouter();
   return (
-    <IoMdArrowRoundBack className="linktoback" onClick={() => Router.back()} />
-
-  )
+    <IoMdArrowRoundBack
+      className={styles.linktoback}
+      onClick={() => Router.back()}
+    />
+  );
 }
 
-export default GoBack
+export default GoBack;

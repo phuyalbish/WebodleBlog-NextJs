@@ -1,4 +1,3 @@
-
 /* .....................Footer............... */
 
 .footer {
@@ -43,7 +42,7 @@
 }
 
 .mainFooterInfo {
-    border-top: 2px solid var(--colorborder);
+  border-top: 2px solid var(--colorborder);
   display: flex;
   flex-grow: 1;
   flex-wrap: wrap;
@@ -81,9 +80,8 @@
   text-align: end;
 }
 
-
 @media screen and (max-width: 800px) {
-  .footer{
+  .footer {
     padding-inline: 20px;
   }
   .mainFooterInfo {
@@ -100,5 +98,4 @@
   .categoriesOfWriter {
     gap: 5px;
   }
-
 }

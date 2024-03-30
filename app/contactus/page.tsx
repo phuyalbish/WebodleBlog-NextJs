@@ -1,6 +1,6 @@
-'use client'
+"use client";
 import React, { useState, ChangeEvent, FormEvent } from "react";
-import styles from './contactus.module.css'
+import styles from "./contactus.module.css";
 
 interface ContactFormData {
   name: string;
@@ -15,7 +15,9 @@ const ContactUs: React.FC = () => {
     message: "",
   });
 
-  const changeInputHandler = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const changeInputHandler = (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setContactData((prevState) => ({
       ...prevState,
@@ -40,7 +42,7 @@ const ContactUs: React.FC = () => {
             value={contactData.name}
             placeholder="Your Name"
             onChange={changeInputHandler}
-             className={styles.input}
+            className={styles.input}
             autoFocus
             required
           />
@@ -50,7 +52,7 @@ const ContactUs: React.FC = () => {
             value={contactData.email}
             placeholder="Your Email"
             onChange={changeInputHandler}
-             className={styles.input}
+            className={styles.input}
             required
           />
           <textarea
@@ -58,7 +60,7 @@ const ContactUs: React.FC = () => {
             value={contactData.message}
             placeholder="Your Message"
             onChange={changeInputHandler}
-             className={styles.input}
+            className={styles.input}
             required
           />
           <button type="submit" className={styles.primary}>

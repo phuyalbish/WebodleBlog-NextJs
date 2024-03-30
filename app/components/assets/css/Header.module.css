@@ -1,7 +1,7 @@
 .navbar {
   width: 100vw;
   height: 5rem;
-  padding:5px;
+  padding: 5px;
   display: grid;
   place-items: center;
   background: var(255, 255, 255, 8.5);
@@ -14,7 +14,7 @@
 }
 
 .navbarContainer {
-    width: var(--container-width-large);
+  width: var(--container-width-large);
   margin-inline: auto;
   display: flex;
   justify-content: space-between;
@@ -27,7 +27,6 @@
   align-items: center;
   gap: 3rem;
 }
-
 
 .navbarToggleBtn {
   display: none;
@@ -42,25 +41,24 @@
 
 .navbarLogoAndHeader {
   display: flex;
-  gap:1rem;
+  gap: 1rem;
 }
 .navbarLogoAndHeader h3 {
   align-self: center;
   color: var(--colorgray-9);
 }
 
-
-@media screen and  (max-width: 800px){
-  .navbar{
-    width:100%;
+@media screen and (max-width: 800px) {
+  .navbar {
+    width: 100%;
   }
   .navbarContainer {
     position: relative;
     flex-direction: column;
     /* justify-content: space-evenly; */
   }
-  .navbarMenuInner p{
-        font-size: 14px;
+  .navbarMenuInner p {
+    font-size: 14px;
   }
   .navbar_menu {
     box-shadow: 0 1rem 1.5rem var(--color-boxshadow);
@@ -92,8 +90,8 @@
     background: var(--color-white);
     padding: 0.85rem 2.5rem;
   }
-  .darkMode{
-    padding:10px;
+  .darkMode {
+    padding: 10px;
   }
   .nightlightli {
     border: 1px solid var(--colorgray-9) !important;

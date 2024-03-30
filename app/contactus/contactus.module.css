@@ -6,7 +6,7 @@
 .input {
   width: 100%;
   padding: 1rem 1rem;
-  margin:1rem;
+  margin: 1rem;
   border-radius: var(--radius-3);
   resize: none;
   background: var(--color-white);
@@ -14,8 +14,8 @@
   border: 1px solid var(--colorgray-9);
 }
 
-.contact{
-width: var(--form-width);
+.contact {
+  width: var(--form-width);
   margin-inline: auto;
   height: calc(100vh - 12rem);
   display: grid;
@@ -23,17 +23,15 @@ width: var(--form-width);
   margin-bottom: 8rem;
 }
 
-
 .primary {
   background: var(--colorprimary) !important;
   color: var(--colorwhite);
   border: none !important;
-  padding:1rem;
+  padding: 1rem;
   border-radius: 2rem;
 }
 @media screen and (max-width: 800px) {
-.contact{
-
-  width:80%;
-}
+  .contact {
+    width: 80%;
+  }
 }

@@ -1,5 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { MdEmail } from "react-icons/md";
+import { FaInstagram } from "react-icons/fa6";
+import styles from "./assets/css/Footer.module.css";
 import {
   FaGithubSquare,
   FaLinkedin,
@@ -8,16 +10,11 @@ import {
   FaFacebook,
   FaPhoneAlt,
 } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { FaInstagram } from "react-icons/fa6";
-import styles from './Footer.module.css'
+
 function Footer() {
   return (
     <footer className={styles.footer}>
-     
-
-<div className={styles.mainFooterInfo}>
-      <hr />
+      <div className={styles.mainFooterInfo}>
         <div className={styles.footer_outer}>
           <h2>Contact us:</h2>
           <div className={styles.inner_footer}>
@@ -29,7 +26,7 @@ function Footer() {
             <p>Kathmandu, Nepal KTM 44600</p>
           </div>
           <div className={styles.inner_footer}>
-            <MdEmail className={styles.footer_icon}  />
+            <MdEmail className={styles.footer_icon} />
             <p>webodleinc@gmail.com</p>
           </div>
         </div>
@@ -37,7 +34,7 @@ function Footer() {
         <div className={styles.footer_outer}>
           <h2>Follow us:</h2>
           <div className={styles.inner_footer}>
-            <FaFacebook className={styles.footer_icon}  />
+            <FaFacebook className={styles.footer_icon} />
             <p>facebook.com/webodle</p>
           </div>
           <div className={styles.inner_footer}>

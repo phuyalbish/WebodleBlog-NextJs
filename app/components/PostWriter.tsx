@@ -1,5 +1,4 @@
-
-import React from 'react'
+import React from "react";
 
 interface Writer {
   id: number;
@@ -24,19 +23,18 @@ interface Writer {
     bs: string;
   };
 }
-const PostWriter:React.FC<{ userId: number }> =async ({ userId }) => {
-
-
-
-  const response = await fetch(`https://jsonplaceholder.typicode.com/users/${userId}`);
-  const writer: Writer= await response.json();
+const PostWriter: React.FC<{ userId: number }> = async ({ userId }) => {
+  const response = await fetch(
+    `https://jsonplaceholder.typicode.com/users/${userId}`
+  );
+  const writer: Writer = await response.json();
 
   return (
-    <div className="post_writer_details">
-        <h5>{writer?.name}</h5>
-        <small>@{writer?.username}</small>
-    </div>
+    <>
+      <h5>{writer?.name}</h5>
+      <small>@{writer?.username}</small>
+    </>
   );
-}
+};
 
-export default PostWriter
+export default PostWriter;

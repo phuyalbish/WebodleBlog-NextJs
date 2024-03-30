@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./DarkMode.css";
+import styles from "./DarkMode.module.css";
 
 const DarkMode: React.FC = () => {
   const setDarkMode = () => {
@@ -27,14 +27,17 @@ const DarkMode: React.FC = () => {
   }, []);
 
   return (
-    <div className="dark_mode">
+    <div className={styles.dark_mode}>
       <input
-        className="dark_mode_input"
+        className={styles.dark_mode_input}
         type="checkbox"
         id="darkmode-toggle"
         onChange={toggleTheme}
       />
-      <label className="dark_mode_label" htmlFor="darkmode-toggle"></label>
+      <label
+        className={styles.dark_mode_label}
+        htmlFor="darkmode-toggle"
+      ></label>
     </div>
   );
 };
